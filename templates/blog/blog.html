@@ -1,0 +1,23 @@
+{% extends 'blog/base.html' %}
+{% block title %} Contact {% endblock title%}
+{%block blogactive%}active{% endblock blogactive %}
+{% block body%}
+<div class="card">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="image.jpg" class="img-fluid" alt="Blog Image">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Blog Title</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at lacus non mi sodales tempor nec eu elit.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+        <div class="card-footer text-muted">
+          Published on July 19, 2023
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  {% endblock body%}
